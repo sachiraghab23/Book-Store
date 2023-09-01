@@ -1,5 +1,5 @@
 import express from 'express';
-import { Book } from '../models/bookModel';
+import { Book } from '../models/bookModel.js';
 const router = express.Router();
 //Route for saving new book
 router.post('/',async (req,res)=>{
