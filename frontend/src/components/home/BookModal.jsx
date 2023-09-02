@@ -31,3 +31,5 @@ const BookModal = ({ book, onClose }) => {
     </div>
   )
 }
+
+export default BookModal;
